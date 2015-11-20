@@ -5,7 +5,13 @@ shinyUI(fluidPage(
     sidebarPanel( 
     helpText("BMI is a measure of weight adjusted for height.The actual calculation is weight(kg)/(height(m)^2).
              BMI can be divided into several categories and generally the higher your BMI, the greater your risk of a large range of medical problems.
-             For adults, 18.5-25 is normal BMI; <18.5 is underweight; 25 ~ 30 is overweight; >30 is obesity.
+             For adults, 18.5-25 is normal BMI; 
+             <15 is very severely underweight;
+             15 ~ 16 is severely underweight;
+             16 ~ 18.5 is underweight; 
+             18.5 ~ 25 is normal healthy weight;
+             25 ~ 30 is overweight; 
+             >30 is obesity.
              ")
   ),
   mainPanel(
